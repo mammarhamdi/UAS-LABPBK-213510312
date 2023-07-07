@@ -24,8 +24,8 @@ export default {
 <style>
 body {
   background-image: url('https://1.bp.blogspot.com/-DuRtgmaUhIk/YGFXVkyq3DI/AAAAAAAAIMQ/i80mKqCTfesgRpUd1V7QPmkJ6DEahRWLwCLcBGAsYHQ/s16000/biru-pastel.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: 100%100%;
+  background-attachment: fixed;
   margin: 0;
   padding: 0;
   height: 100%;
