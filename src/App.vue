@@ -26,29 +26,37 @@ body {
   background-image: url('https://1.bp.blogspot.com/-DuRtgmaUhIk/YGFXVkyq3DI/AAAAAAAAIMQ/i80mKqCTfesgRpUd1V7QPmkJ6DEahRWLwCLcBGAsYHQ/s16000/biru-pastel.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 #app {
   text-align: center;
-  margin-left: 100px;
-  margin-right: 100px;
+  padding: 20px;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 header {
   background: linear-gradient(to right, #040432, #063eae);
   padding: 20px;
-  margin-top: 30px;
   box-shadow: 0 2px 4px rgba(255, 248, 248, 0.2);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
 }
 
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 nav li {
-  display: inline-block;
   margin-right: 10px;
 }
 
