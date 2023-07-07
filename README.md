@@ -1,4 +1,8 @@
 # uaslabpbk
+Nama   : Muhammad Ammar Hamdi
+Npm    : 213510312
+Kelas  : 4b
+Matkul : Praktikum PBK
 
 ## Project setup
 ```
